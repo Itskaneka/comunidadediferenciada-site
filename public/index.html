@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Comunidade Diferenciada</title>
+        <link rel="sortcut icon" href="img/pato.png">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Truculenta&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    </head>
+    <style>
+    #menu {
+        font-family: 'Truculenta';
+        font-size: 30px;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    #footerDescricao h2 {
+        font-family: 'Truculenta';
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+    }
+    #footerDescricao p {
+        font-family: 'Truculenta';
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+
+    h1 {
+        font-family: 'Truculenta';
+        color: white;
+        text-align: center;
+    }
+
+    #regras p {
+        color: white;
+        font-family: 'Truculenta';
+        font-size: 20px;
+    }
+
+    #parceiros p {
+        color: rgb(255, 255, 255);
+        font-family: 'Truculenta';
+        font-size: 20px;
+    }
+
+    #parceiros h1 {
+        color: rgb(255, 255, 255);
+        font-family: 'Truculenta';
+    }
+
+    #cargos p {
+        color: white;
+        font-family: 'Truculenta';
+        font-size: 20px;
+    }
+    h2::after {
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+  }
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+    </style>
+    <body>
+        <header>
+            <div id="menu" align="center">
+                <a id="opcoes" href="#regras">Saiba mais</a>
+            </div>
+        </header>
+        <br>
+        <br>
+        <br>
+        <div id="container">
+          
+            <div align="center">
+                <img id="logoimg" src="img/logo-site.png" alt="">
+                
+            </div>
+            <div align="center">
+                <iframe src="https://discord.com/widget?id=827236701473603684&theme=dark" width="50%" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            </div>
+            <br>
+            <div id="regras">
+                <h1>Regras</h1>
+                <br>
+                <p>
+                    Lembrando que o intuito do servidor é se divertir.
+                    <br>
+                    • Aqui é extremamente restrito fazer bullying e gerar ódio ou seja se você brincar com a pessoa e
+                ela
+                    <br>
+                    não rir não continue pois ela não esta gostando.
+                    <br>
+                    • O servidor é principalmente focado em VrChat, mas isso não significa que você precisa jogar VrChat
+                pra
+                participar. Existem outras comunidades aqui aonde você pode se divertir e fazer novos amigos.
+                    <br>
+                    • Faz spam não, atrapalha todos e incomoda.
+                    <br>
+                    • A REGRA MAIS SÉRIA É SE DIVERTIR.
+                </p>
+            </div>
+            <br>
+            <div id="parceiros">
+                <h1>Parceiros</h1>
+                <a href="https://discord.gg/horusinfinity"><img src="img/logo-horus.png" width="20%"></a>
+               
+            </div>
+            <div id="footerDescricao">
+                <footer>
+                    <img
+                        src="img/logo servidor.png"
+                        width="15%"
+                        align="left"
+                        alt=""
+                    >
+                    <br>
+                    <h2>"Chega junto, venha participar!, Você esta convidado  . - Koemi"</h2>
+                    <p>Criado com muito amor e carinho por Koemi#9799, Beh#6109, Golden ✟#8335, yNexTson_#0100 e ☠Mig☠#3518.</p>
+                </footer>
+            </div>
+        </div>
+        <script>
+        function typeWriter(elemento) {
+          const textoArray = elemento.innerHTML.split('');
+          elemento.innerHTML = '';
+          textoArray.forEach((letra, i) => {
+            setTimeout(() => elemento.innerHTML += letra, 75 * i);
+          });
+        }
+      
+        // Se estiver tendo problemas com performance, utilize o FOR loop como abaixo no local do forEach
+        // function typeWriter(elemento) {
+        //   const textoArray = elemento.innerHTML.split('');
+        //   elemento.innerHTML = '';
+        //   for(let i = 0; i < textoArray.length; i++) {
+        //     setTimeout(() => elemento.innerHTML += textoArray[i], 75 * i);
+        //   }
+        // }
+      
+        const titulo = document.querySelector('h2');
+        typeWriter(titulo);
+        </script>
+    </body>
+</html>

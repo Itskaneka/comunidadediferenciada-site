@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    background: url(../img/sitevr.gif);
+    background-size: 140%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    width: 100%;
+}
+
+
+
+
+#opcoes {
+    font-family: 'Truculenta';
+    padding: 5px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+#opcoes:hover {
+    color: rgb(192, 192, 192);
+    transition: color 1s;
+}
+
+#logo {
+    width: 25%;
+}
+
+#logoimg {
+    width: 30%;
+    height: 30%;
+    
+}
+
+#logodiscord {
+    width: 15%;
+    height: 15%;
+}
+
+
+
+#botao_discord {
+    width: 20%;
+}
+
+#regras {
+    margin-bottom: -50px;
+    background: rgb(238, 151, 21);
+    background-image: linear-gradient(to top, rgb(122, 21, 238), rgb(68, 0, 255));
+    text-align: center;
+    height: 500px;
+    width: 100%;
+}
+
+
+#parceiros {
+    background: rgb(19, 19, 19);
+    height: 500px;
+    text-align: center;
+    width: 100%;
+}
+
+#footerDescricao {
+    background: rgb(238, 151, 21);
+    background-image: linear-gradient(to top, rgb(122, 21, 238), rgb(68, 0, 255));
+    height: 500px;
+}
+
+#footerDescricao img {
+    padding: 3%;
+}
+
+/*responsivo*/
+
+@media screen and (max-width: 768px) {
+    body {
+        background-size: 250%;
+    }
+}
+
+/*Moto G4 / GALAXY S5*/
+
+@media screen and (max-width: 360px) {
+    body {
+        background-size: 350%;
+        background-position-x: 35%;
+    }
+    #logoimg {
+        width: 50%;
+        height: 50%;
+    }
+    #logodiscord {
+        width: 25%;
+        height: 15%;
+    }
+}
+
+#regras {
+    margin-top: auto;
+}
+
+#footerDescricao h2 {
+    font-family: 'Truculenta';
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+#footerDescricao p {
+    font-family: 'Truculenta';
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+#footerDescricao {
+    height: 500px;
+}
+
+/*IPHONE 6, 7, 8 E X*/
+
+@media screen and (max-width: 375px) {
+    body {
+        background-size: 350%;
+        background-position-x: 35%;
+    }
+    #logoimg {
+        width: 50%;
+        height: 50%;
+    }
+    #logodiscord {
+        width: 25%;
+        height: 15%;
+    }
+    #footerDescricao {
+        height: 500px;
+    }
+}
+
+/*PIXEL 2 E PIXEL 2 XL*/
+
+@media screen and (max-width: 411px) {
+    body {
+        background-size: 350%;
+        background-position-x: 35%;
+    }
+    #logoimg {
+        width: 50%;
+        height: 50%;
+    }
+    #logodiscord {
+        width: 25%;
+        height: 15%;
+    }
+    #footerDescricao {
+        height: 500px;
+    }
+    #regras {
+        margin-top: auto;
+    }
+}
+
+/*IPHONE 6,7,8 PLUS*/
+
+@media screen and (max-width: 414px) {
+    body {
+        background-size: 350%;
+        background-position-x: 35%;
+    }
+    #logoimg {
+        width: 50%;
+        height: 50%;
+    }
+    #logodiscord {
+        width: 25%;
+        height: 15%;
+    }
+    #footerDescricao {
+        height: 500px;
+    }
+    #regras {
+        margin-top: auto;
+    }
+}
+
+/*SURFACE DUO*/
+
+@media screen and (max-width: 540px) {
+    body {
+        background-size: 350%;
+        background-position-x: 35%;
+    }
+    #logoimg {
+        width: 50%;
+        height: 50%;
+    }
+    #logodiscord {
+        width: 25%;
+        height: 15%;
+    }
+    #footerDescricao {
+        height: 500px;
+    }
+}
+
+/*GALAXY FOLD*/
+
+@media screen and (max-width: 280px) {
+    body {
+        background-size: 350%;
+        background-position-x: 35%;
+    }
+    #logoimg {
+        width: 50%;
+        height: 50%;
+    }
+    #logodiscord {
+        width: 25%;
+        height: 15%;
+    }
+    #opcoes {
+        font-family: 'Truculenta';
+        padding: 5px;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    #regras {
+        margin-top: -45px;
+    }
+    #cargos {
+        margin-top: -30px;
+    }
+    #footerDescricao {
+        height: 500px;
+    }
+}
